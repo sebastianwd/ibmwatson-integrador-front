@@ -1,0 +1,13 @@
+.options {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  &__items {
+    padding: 5px 8px;
+    background-color: #9855d4;
+    border-radius: 8px 5px;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+}
