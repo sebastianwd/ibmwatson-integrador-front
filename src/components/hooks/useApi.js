@@ -5,7 +5,7 @@ const useApi = () => {
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
 
-  const urlWatson = "http://localhost:3000/conversation/"
+  const urlWatson = "https://integrador-back.herokuapp.com/conversation/"
 
   const fetchData = async (rootUrl, endpoint, params = {}, method = "get") => {
     setIsError(false)
