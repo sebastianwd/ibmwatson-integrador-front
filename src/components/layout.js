@@ -20,9 +20,7 @@ const Layout = ({ children }) => {
     <WatsonProvider>
       <div className="container">
         <main>{children}</main>
-        <footer style={{ position: "fixed", bottom: "0", padding: "1rem" }}>
-          ©Sebastian Luque
-        </footer>
+       
       </div>
     </WatsonProvider>
   )
